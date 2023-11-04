@@ -11,6 +11,8 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "First"
 
         // Do any additional setup after loading the view.
     }
