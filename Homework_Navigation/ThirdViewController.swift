@@ -11,8 +11,17 @@ class ThirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.rightBarButtonItem = .init(title: "Forward", image: nil, target: self, action: #selector(buttonForwardTapped))
 
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func buttonForwardTapped(_ sender: UIButton) {
+        let fourtViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FourthViewController")
+        
+        navigationController?.pushViewController(fourtViewController, animated: true)
+        
     }
     
 
