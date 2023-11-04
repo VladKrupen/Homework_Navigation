@@ -13,6 +13,11 @@
 		014864802AF67D2E00FB28D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0148647E2AF67D2E00FB28D0 /* Main.storyboard */; };
 		014864822AF67D3000FB28D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014864812AF67D3000FB28D0 /* Assets.xcassets */; };
 		014864852AF67D3000FB28D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014864832AF67D3000FB28D0 /* LaunchScreen.storyboard */; };
+		0148648D2AF6803700FB28D0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148648C2AF6803700FB28D0 /* FirstViewController.swift */; };
+		0148648F2AF6803F00FB28D0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148648E2AF6803F00FB28D0 /* SecondViewController.swift */; };
+		014864912AF6804B00FB28D0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014864902AF6804B00FB28D0 /* ThirdViewController.swift */; };
+		014864932AF6805800FB28D0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014864922AF6805800FB28D0 /* FourthViewController.swift */; };
+		014864952AF6806300FB28D0 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014864942AF6806300FB28D0 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		014864812AF67D3000FB28D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014864842AF67D3000FB28D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		014864862AF67D3000FB28D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0148648C2AF6803700FB28D0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0148648E2AF6803F00FB28D0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		014864902AF6804B00FB28D0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		014864922AF6805800FB28D0 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		014864942AF6806300FB28D0 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			children = (
 				014864782AF67D2E00FB28D0 /* AppDelegate.swift */,
 				0148647A2AF67D2E00FB28D0 /* SceneDelegate.swift */,
+				0148648C2AF6803700FB28D0 /* FirstViewController.swift */,
+				0148648E2AF6803F00FB28D0 /* SecondViewController.swift */,
+				014864902AF6804B00FB28D0 /* ThirdViewController.swift */,
+				014864922AF6805800FB28D0 /* FourthViewController.swift */,
+				014864942AF6806300FB28D0 /* FifthViewController.swift */,
 				0148647C2AF67D2E00FB28D0 /* ViewController.swift */,
 				0148647E2AF67D2E00FB28D0 /* Main.storyboard */,
 				014864812AF67D3000FB28D0 /* Assets.xcassets */,
@@ -141,6 +156,11 @@
 				0148647D2AF67D2E00FB28D0 /* ViewController.swift in Sources */,
 				014864792AF67D2E00FB28D0 /* AppDelegate.swift in Sources */,
 				0148647B2AF67D2E00FB28D0 /* SceneDelegate.swift in Sources */,
+				014864932AF6805800FB28D0 /* FourthViewController.swift in Sources */,
+				014864952AF6806300FB28D0 /* FifthViewController.swift in Sources */,
+				0148648F2AF6803F00FB28D0 /* SecondViewController.swift in Sources */,
+				014864912AF6804B00FB28D0 /* ThirdViewController.swift in Sources */,
+				0148648D2AF6803700FB28D0 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
