@@ -7,12 +7,15 @@
 
 import UIKit
 
+let notificaionName = Notification.Name.init("Background color")
+
 class FifthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        NotificationCenter.default.post(name: notificaionName, object: self)
+        
     }
     
 

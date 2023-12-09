@@ -17,23 +17,15 @@ class FourthViewController: UIViewController {
     
 
     @IBAction func buttonJumpTapped(_ sender: Any) {
-        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController")
-        let firstViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FirstViewController")
-        let secondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController")
-        let thirdViewContrller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ThirdViewController")
-        let fourthViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FourthViewController")
+        
         let fifthViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FifthViewController")
         
         navigationController?.pushViewController(fifthViewController, animated: true)
         
-        navigationController?.viewControllers = [viewController, firstViewController, secondViewController, thirdViewContrller, fourthViewController, fifthViewController]
-        var viewControllers = navigationController?.viewControllers
-        viewControllers?.swapAt(3, 4)
-        viewControllers?.swapAt(1, 2)
-        
-        navigationController?.viewControllers = viewControllers!
-        
-        
+        var viewContollers = navigationController?.viewControllers
+        viewContollers?.swapAt(3, 4)
+        viewContollers?.swapAt(1, 2)
+        navigationController?.viewControllers = viewContollers!
         
     }
     /*
