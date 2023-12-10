@@ -13,8 +13,15 @@ class FifthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        NotificationCenter.default.addObserver(self, selector: #selector(chageBackgroundColor), name: notificaionName, object: nil)
+        
         NotificationCenter.default.post(name: notificaionName, object: self)
+        
+    }
+    
+    @objc func chageBackgroundColor(_ notification: NSNotification) {
+        
+        view.backgroundColor = .red
         
     }
     

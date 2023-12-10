@@ -13,12 +13,17 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.hidesBackButton = true
-
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(chageBackgroundColor), name: notificaionName, object: nil)
 
         // Do any additional setup after loading the view.
     }
     
-
+    @objc func chageBackgroundColor(_ notification: NSNotification) {
+        
+        view.backgroundColor = .red
+        
+    }
     /*
     // MARK: - Navigation
 

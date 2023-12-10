@@ -11,6 +11,7 @@ class ThirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        NotificationCenter.default.addObserver(self, selector: #selector(chageBackgroundColor), name: notificaionName, object: nil)
         
         navigationItem.rightBarButtonItem = .init(title: "Forward", image: nil, target: self, action: #selector(buttonForwardTapped))
 //        navigationItem.rightBarButtonItem?.customView = UIButton() чтобы название с картинкой
@@ -25,6 +26,11 @@ class ThirdViewController: UIViewController {
         
     }
     
+    @objc func chageBackgroundColor(_ notification: NSNotification) {
+        
+        view.backgroundColor = .red
+        
+    }
 
     /*
     // MARK: - Navigation

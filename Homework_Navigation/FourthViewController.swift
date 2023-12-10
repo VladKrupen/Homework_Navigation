@@ -11,7 +11,8 @@ class FourthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(chageBackgroundColor), name: notificaionName, object: nil)
         // Do any additional setup after loading the view.
     }
     
@@ -26,6 +27,12 @@ class FourthViewController: UIViewController {
         viewContollers?.swapAt(3, 4)
         viewContollers?.swapAt(1, 2)
         navigationController?.viewControllers = viewContollers!
+        
+    }
+    
+    @objc func chageBackgroundColor(_ notification: NSNotification) {
+        
+        view.backgroundColor = .red
         
     }
     /*

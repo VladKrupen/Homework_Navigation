@@ -18,13 +18,7 @@ class ViewController: UIViewController {
     
     @objc func chageBackgroundColor(_ notification: NSNotification) {
         
-        let viewControllers = navigationController?.viewControllers
-        
-        for viewController in viewControllers! {
-            viewController.view.backgroundColor = .red
-        }
-        
-        navigationController?.viewControllers = viewControllers!
+        view.backgroundColor = .red
         
     }
 
